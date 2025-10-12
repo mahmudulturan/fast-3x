@@ -1,0 +1,34 @@
+{
+  "name": "@xtawfik/fast-3x",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate 1x, 2x, and 3x image versions for retina displays",
+  "main": "index.js",
+  "bin": {
+    "fast-3x": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "retina",
+    "image",
+    "resize",
+    "responsive",
+    "2x",
+    "3x"
+  ],
+  "author": "xtawfik",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.0",
+    "prompts": "^2.4.2",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "glob": "^10.3.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
+
