@@ -20,13 +20,13 @@ A powerful CLI tool to automatically generate 1x, 2x, and 3x versions of your im
 No installation needed! Just run:
 
 ```bash
-npx @xtawfik/fast-3x
+npx @tawfik/fast-3x
 ```
 
 ### Global Installation
 
 ```bash
-pnpm install -g @xtawfik/fast-3x
+pnpm install -g @tawfik/fast-3x
 ```
 
 ### Local Development
@@ -45,7 +45,7 @@ node index.js
 
 2. Run the tool:
 ```bash
-npx @xtawfik/fast-3x
+npx @tawfik/fast-3x
 ```
 
 3. Follow the interactive prompts:
@@ -63,7 +63,7 @@ npx @xtawfik/fast-3x
 ## Example
 
 ```bash
-$ npx @xtawfik/fast-3x
+$ npx @tawfik/fast-3x
 
   ███████╗ █████╗ ███████╗████████╗    ██████╗ ██╗  ██╗
   ██╔════╝██╔══██╗██╔════╝╚══██╔══╝    ╚════██╗╚██╗██╔╝

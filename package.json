@@ -1,5 +1,5 @@
 {
-  "name": "@xtawfik/fast-3x",
+  "name": "@tawfik/fast-3x",
   "version": "1.0.0",
   "description": "A CLI tool to generate 1x, 2x, and 3x image versions for retina displays",
   "main": "index.js",
