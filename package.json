@@ -1,10 +1,10 @@
 {
-  "name": "@tawfik/fast-3x",
+  "name": "retina-3x",
   "version": "1.0.0",
   "description": "A CLI tool to generate 1x, 2x, and 3x image versions for retina displays",
   "main": "index.js",
   "bin": {
-    "fast-3x": "./index.js"
+    "retina-3x": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
@@ -15,10 +15,23 @@
     "resize",
     "responsive",
     "2x",
-    "3x"
+    "3x",
+    "webp",
+    "cli"
   ],
-  "author": "xtawfik",
+  "author": "Mahmudul Hasan <mahmudul@hugeicons.com>",
+  "contributors": [
+    "xtawfik (original author of fast-3x)"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmudulturan/fast-3x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahmudulturan/fast-3x/issues"
+  },
+  "homepage": "https://github.com/mahmudulturan/fast-3x#readme",
   "dependencies": {
     "sharp": "^0.33.0",
     "prompts": "^2.4.2",
@@ -31,4 +44,3 @@
   },
   "packageManager": "pnpm@8.15.0"
 }
-

@@ -1,6 +1,8 @@
-# Fast-3x 🖼️
+# retina-3x 🖼️
 
 A powerful CLI tool to automatically generate 1x, 2x, and 3x versions of your images for retina displays.
+
+> This package is a fork of [fast-3x](https://github.com/xtawfik/fast-3x) by [xtawfik](https://github.com/xtawfik), republished under the name `retina-3x` with continued maintenance. Original work © xtawfik, MIT licensed.
 
 ## Features
 
@@ -20,13 +22,13 @@ A powerful CLI tool to automatically generate 1x, 2x, and 3x versions of your im
 No installation needed! Just run:
 
 ```bash
-npx @tawfik/fast-3x
+npx retina-3x
 ```
 
 ### Global Installation
 
 ```bash
-pnpm install -g @tawfik/fast-3x
+pnpm install -g retina-3x
 ```
 
 ### Local Development
@@ -45,7 +47,7 @@ node index.js
 
 2. Run the tool:
 ```bash
-npx @tawfik/fast-3x
+npx retina-3x
 ```
 
 3. Follow the interactive prompts:
@@ -63,7 +65,7 @@ npx @tawfik/fast-3x
 ## Example
 
 ```bash
-$ npx @tawfik/fast-3x
+$ npx retina-3x
 
   ███████╗ █████╗ ███████╗████████╗    ██████╗ ██╗  ██╗
   ██╔════╝██╔══██╗██╔════╝╚══██╔══╝    ╚════██╗╚██╗██╔╝
@@ -176,5 +178,7 @@ MIT
 
 ## Author
 
-xtawfik
+Maintained by [Mahmudul Hasan](https://github.com/mahmudulturan).
+
+Original `fast-3x` created by [xtawfik](https://github.com/xtawfik).
 
